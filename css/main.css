@@ -74,8 +74,6 @@
     border-bottom: 1px solid #efefef;
  }
  
- 
- 
  #main-nav ul li:first-child {
     border-top: 1px solid #efefef;
  }
@@ -83,7 +81,6 @@
  #main-nav ul li:last-child {
     margin-bottom: 10px;
  } 
- 
  
  
  #logo {
@@ -297,6 +294,8 @@
    margin: 0;
    padding: 0;
    list-style-type: none;
+   font-weight: normal;
+   font-size: 13px;
 }
 
 .faq-items li {
@@ -314,11 +313,25 @@
    margin-bottom: 20px;
 }
 
+details {
+   background-color: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+details:hover {
+   color: rgb(196, 28, 28);
+   padding: 16px;
+   font-size: 16px;
+}
+
 /* 7. ---Contact--- */
 #contact-hero-con {
    background: url(../images/contact-hero.jpg) no-repeat;
    background-size: cover;
    height: 195px;
+   opacity: 70%;
 }
 
 #contact-hero-heading-box {

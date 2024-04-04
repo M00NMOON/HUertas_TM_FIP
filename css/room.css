@@ -92,7 +92,7 @@
 
 #hero {
    background: url(../images/Rooms/RH-mbl-hero1@1x.jpg) no-repeat;
-   height: 421px;
+   height: 300px;
 }
 
 .book-now {
@@ -116,19 +116,22 @@
    height: 67px;
 }
 
-#hero-heading-box {
+#room-heading-box {
    align-self: end;
 }
 
-.hero-img-h2, .hero-img-h3 {
+.room-headtext-h2 {
    background: rgb(255, 255, 255);
    padding: 10px 15px;
-   font-size: 14px;
+   font-size: 41px;
+   font-weight:normal;
 }
 
-.hero-img-h2 span,  .hero-img-h3 span {
+.room-headtext-h2 span {
    color: #9a2018;
    font-size: 12px;
+   font-weight: bolder;
+   padding-top: 0;
 }
 
 #hero-summary p {
@@ -136,3 +139,215 @@
    line-height: 22px;
    margin-bottom: 20px;
 }
+
+/*Rooms list start*/
+#room-one-img {
+   background-image: url(../images/Rooms/RH-mbl-room1@1x.jpg);
+   height: 216px;
+   width: 347px;
+}
+
+#room-des {
+   padding-top: 10px;
+   font-size: 14px;
+}
+
+
+.room-details {
+   background-color: white;
+   font-weight: normal;
+   padding-top: 20px;
+}
+
+summary {
+   font-size: 15px;
+}
+
+.room-details:hover{
+   background-color: white;
+   font-weight: normal;
+   padding-top: 20px;
+}
+
+
+/* 6. ---About & FAQ--- */
+#about-hero-con {
+   background: url(../images/about-us-hero.jpg) no-repeat;
+   height: 195px;
+}
+
+#about-hero-heading-box {
+   align-self: end;
+}
+
+#about-us-text {
+   padding-bottom: 60px;
+}
+
+#about-us-text p {
+   font-size: 14px;
+   margin-bottom: 20px;
+   line-height: 22px;
+}
+
+#about-us-text-column2 {
+   font-style: italic;
+}
+
+#faq-con{
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#faq-con h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+#faq-con h2 span {
+   font-size: 16px;
+}
+
+.faq-items {
+   margin-bottom: 16px;
+}
+
+.faq-items h3 {
+   background-color: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+}
+
+.faq-items ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   font-weight: normal;
+   font-size: 13px;
+}
+
+.faq-items li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+}
+
+.faq-items {
+   color: inherit;
+   font-size: 13px;
+}
+
+#faq-text-con {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+details {
+   background-color: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+details:hover {
+   color: rgb(196, 28, 28);
+   padding: 16px;
+   font-size: 16px;
+}
+
+/* 7. ---Contact--- */
+#contact-hero-con {
+   background: url(../images/contact-hero.jpg) no-repeat;
+   background-size: cover;
+   height: 195px;
+   opacity: 70%;
+}
+
+#contact-hero-heading-box {
+   align-self: end;
+}
+
+#contact-hero-text {
+   margin-bottom: 15px;
+   margin-bottom: 25px;
+}
+
+#contact-hero-address p{
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#contact-hero-address {
+   margin-bottom: 30px;
+}
+
+#contact-hero-address h3 {
+   margin-bottom: 25px;
+}
+
+#contact-hero-form form {
+   display: flex;
+   flex-direction: column;
+}
+
+#contact-hero-form input, #contact-hero-form textarea {
+   padding: 22px;
+   border: 2px solid #d6d6d6;
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   margin-bottom: 30px;
+   font: inherit;
+   width: auto;
+}
+
+#contact-hero-form textarea {
+   height: 250px;
+}
+
+#contact-hero-form input[type="submit"] {
+   padding: 12px 28px;
+   background: #9a2018;
+   color:#fff;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 150px;
+   align-self: flex-end;
+}
+
+#contact-hero-form input[type="submit"]:hover {
+   background-color: #626262;
+   border-radius: 0;
+}
+
+
+/* 8. ---Footer--- */
+
+#footer-hero {
+    background-image: url(../images/footer.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }

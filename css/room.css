@@ -152,7 +152,6 @@
    font-size: 14px;
 }
 
-
 .room-details {
    background-color: white;
    font-weight: normal;
@@ -169,6 +168,16 @@ summary {
    padding-top: 20px;
 }
 
+
+#gallery {
+   padding-top: 15px;
+}
+
+#check-avail {
+   background-color: #CF6666;
+   color: white;
+   padding: 10px 10px 10px 10px
+}
 
 /* 6. ---About & FAQ--- */
 #about-hero-con {

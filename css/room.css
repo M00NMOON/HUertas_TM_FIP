@@ -145,6 +145,9 @@
    background-image: url(../images/Rooms/RH-mbl-room1@1x.jpg);
    height: 216px;
    width: 347px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   
 }
 
 #room-des {
@@ -152,32 +155,63 @@
    font-size: 14px;
 }
 
-.room-details {
-   background-color: white;
-   font-weight: normal;
-   padding-top: 20px;
-}
-
-summary {
-   font-size: 15px;
-}
-
-.room-details:hover{
-   background-color: white;
-   font-weight: normal;
-   padding-top: 20px;
-}
-
-
-#gallery {
+.room-collapable {
    padding-top: 15px;
+   padding-bottom: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 400px;
+   font-family: inherit;
 }
 
-#check-avail {
-   background-color: #CF6666;
-   color: white;
-   padding: 10px 10px 10px 10px
+.tabs__label {
+   Cursor: pointer;
+   padding-top: 10px;
 }
+
+.availability-tab {
+   background-color: #9a2018;
+   padding: 10px;
+   color: white;
+   margin-left:  10px;
+}
+
+.tabs__radio {
+   display: none;
+}
+
+.tabs__radio+.tabs__label:hover {
+   color: #CF6666;
+}
+
+
+.tabs__content {
+order: 1;
+width:100%;
+line-height: 1.5em;
+font-size: 13px;
+display:none;
+padding-left: 20px;
+padding-top: 20px;
+
+}
+
+.tabs__content p {
+  font-size: large;
+  padding-top: 10px;
+   
+   }
+
+.tabs__radio:checked+.tabs__label {
+   font-weight:bold;
+   color: #9a2018;
+ 
+}
+
+.tabs__radio:checked+.tabs__label+.tabs__content {
+Display: block;
+}
+
 
 /* 6. ---About & FAQ--- */
 #about-hero-con {

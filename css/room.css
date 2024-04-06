@@ -147,7 +147,53 @@
    width: 347px;
    margin-bottom: 20px;
    margin-left: 20px;
-   
+}
+
+#room-two-img {
+   background-image: url(../images/Rooms/RH-mbl-room2@1x.jpg);
+   height: 216px;
+   width: 347px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+}
+
+#room-three-img {
+   background-image: url(../images/Rooms/RH-mbl-room3@1x.jpg);
+   height: 216px;
+   width: 347px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+}
+
+#room-four-img {
+   background-image: url(../images/Rooms/RH-mbl-room4@1x.jpg);
+   height: 216px;
+   width: 347px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+}
+
+#room-five-img {
+   background-image: url(../images/Rooms/RH-mbl-room5@1x.jpg);
+   height: 216px;
+   width: 347px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+}
+
+#room-six-img {
+   background-image: url(../images/Rooms/RH-mbl-room6@1x.jpg);
+   height: 216px;
+   width: 347px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+}
+
+#adventure-cabin-img {
+   background-image: url(../images/Rooms/RH-mbl-cabins@1x.jpg);
+   height: 400px;
+   width: 315px;
+   margin-bottom: 20px;
 }
 
 #room-des {
@@ -155,7 +201,7 @@
    font-size: 14px;
 }
 
-.room-collapable {
+.room-collapsable {
    padding-top: 15px;
    padding-bottom: 15px;
    display: flex;
@@ -163,17 +209,48 @@
    max-width: 400px;
    font-family: inherit;
 }
-
 .tabs__label {
    Cursor: pointer;
    padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 15px;
+   font-weight: 600;
 }
 
+.gallery-tab {
+   padding-top: 12px;
+   font-weight: 600;
+}
+
+.gallery-text:hover {
+   color: #CF6666;
+}
 .availability-tab {
    background-color: #9a2018;
    padding: 10px;
    color: white;
-   margin-left:  10px;
+   margin-left:  50px;
+   font-weight: normal;
+}
+
+.availability-tab:hover {
+   background-color:white;
+   border-style: solid;
+   border-width: thin;
+   border-color: #CF6666;
+}
+
+.tabs__radio:checked+.tabs__label.availability-tab {
+   font-weight:normal;
+   color: white;
+}
+
+.tabs__radio:checked+.tabs__label.availability-tab:hover {
+   background-color:white;
+   border-style: solid;
+   border-width: thin;
+   border-color: #CF6666;
+   color:#CF6666;
 }
 
 .tabs__radio {
@@ -184,59 +261,49 @@
    color: #CF6666;
 }
 
-
 .tabs__content {
-order: 1;
-width:100%;
-line-height: 1.5em;
-font-size: 13px;
-display:none;
-padding-left: 20px;
-padding-top: 20px;
+   order: 1;
+   width:100%;
+   line-height: 1.5em;
+   font-size: 13px;
+   display:none;
+   padding-left: 0px;
+   padding-right: 100px;
+   padding-top: 20px;
 
 }
 
 .tabs__content p {
-  font-size: large;
+  font-size: 18px;
   padding-top: 10px;
-   
-   }
+  color: #333;
+}
+
+.calendar{
+   background-image: url(../images/Rooms/RH-mbl-cal@1x.jpg);
+   width: 259px;
+   height: 343px;
+}
 
 .tabs__radio:checked+.tabs__label {
    font-weight:bold;
    color: #9a2018;
- 
 }
+
 
 .tabs__radio:checked+.tabs__label+.tabs__content {
-Display: block;
+   Display: block;
+}
+
+.rooms-separator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+   
 }
 
 
-/* 6. ---About & FAQ--- */
-#about-hero-con {
-   background: url(../images/about-us-hero.jpg) no-repeat;
-   height: 195px;
-}
-
-#about-hero-heading-box {
-   align-self: end;
-}
-
-#about-us-text {
-   padding-bottom: 60px;
-}
-
-#about-us-text p {
-   font-size: 14px;
-   margin-bottom: 20px;
-   line-height: 22px;
-}
-
-#about-us-text-column2 {
-   font-style: italic;
-}
-
+/*  FAQ start */
 #faq-con{
    background-color: #f4f4f4;
    padding-top: 35px;

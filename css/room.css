@@ -451,7 +451,11 @@ details:hover {
    width: 382px;
 }
 
-
+#contact-hero-form input[type="submit"]::after {
+   content: "✅";
+   background-color: #CF6666;
+   border-radius: 5px;
+}
 
 /* 8. ---Footer--- */
 

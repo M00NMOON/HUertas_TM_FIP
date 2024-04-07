@@ -276,18 +276,21 @@ details:hover {
    align-self: flex-end;
 }
 
-#contact-hero-form input[type="submit"]:hover {
+#contact-hero-form input[type="submit"]:active {
    background-color: #CF6666;
    border-radius: 5px;
    width: 382px;
+   cursor: pointer;
 }
 
-#contact-hero-form input[type="submit"]:active:after{
+/*
+#contact-hero-form input[type="submit"]:active::after{
    content: "✅";
    background-color: #CF6666;
    border-radius: 5px;
+   transition: all 200ms ease;
 }
-
+*/
 /* 8. ---Footer--- */
 
 #footer-hero {

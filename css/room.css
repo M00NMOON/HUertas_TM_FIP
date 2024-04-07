@@ -447,16 +447,35 @@ details:hover {
 }
 
 #contact-hero-form input[type="submit"]:hover {
-   background-color: #CF6666;
-   border-radius: 5px;
-   width: 382px;
-}
-
-#contact-hero-form input[type="submit"]:active:after{
    content: "✅";
    background-color: #CF6666;
    border-radius: 5px;
+   width: 200px;
+   animation: contactsubmit 0.2s 1 linear;
+   transition: all 200ms ease-in-out;
 }
+
+@keyframes contactsubmit {
+   0% {
+      width: 150px;
+   }
+
+   50% {
+      width: 170px;
+   }
+
+   100% {
+      width: 200px;
+   }
+}
+
+
+/*
+#contact-hero-form input[type="submit"]:active::after{
+   content: "✅";
+   background-color: #CF6666;
+   border-radius: 5px;
+} */
 
 /* 8. ---Footer--- */
 

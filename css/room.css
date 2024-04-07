@@ -118,11 +118,12 @@
 
 #room-heading-box {
    align-self: end;
+   padding-right: 1px;
 }
 
 .room-headtext-h2 {
    background: rgb(255, 255, 255);
-   padding: 10px 15px;
+   padding-left: 15px;
    font-size: 41px;
    font-weight:normal;
 }

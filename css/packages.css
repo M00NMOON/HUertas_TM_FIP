@@ -91,7 +91,7 @@
 /* 3. ---Main Hero Image--- */
 
 #hero {
-   background: url(../images/Rooms/RH-mbl-hero1@1x.jpg) no-repeat;
+   background: url(../images/Packages/P-mbl-hero1@1x.jpg) no-repeat;
    height: 300px;
 }
 
@@ -116,19 +116,19 @@
    height: 67px;
 }
 
-#room-heading-box {
+#pack-heading-box {
    align-self: end;
-   padding-right: 40px;
+   margin-right: 50px;
 }
 
-.room-headtext-h2 {
+.pack-headtext-h2 {
    background: rgb(255, 255, 255);
-   padding: 10px 15px;
+   padding-left: 15px;
    font-size: 41px;
    font-weight:normal;
 }
 
-.room-headtext-h2 span {
+.pack-headtext-h2 span {
    color: #9a2018;
    font-size: 12px;
    font-weight: bolder;
@@ -142,86 +142,78 @@
 }
 
 /*Rooms list start*/
-#room-one-img {
-   background-image: url(../images/Rooms/RH-mbl-room1@1x.jpg);
+#pack-one-img {
+   background-image: url(../images/Packages/P-mbl-pack1@1x.jpg);
    height: 216px;
    width: 347px;
    margin-bottom: 20px;
    margin-left: 30px;
 }
 
-#room-two-img {
-   background-image: url(../images/Rooms/RH-mbl-room2@1x.jpg);
+#pack-two-img {
+   background-image: url(../images/Packages/P-mbl-pack2@1x.jpg);
    height: 216px;
    width: 347px;
    margin-bottom: 20px;
    margin-left: 30px;
 }
 
-#room-three-img {
-   background-image: url(../images/Rooms/RH-mbl-room3@1x.jpg);
+#pack-three-img {
+   background-image: url(../images/Packages/P-mbl-pack3@1x.jpg);
    height: 216px;
    width: 347px;
    margin-bottom: 20px;
    margin-left: 30px;
 }
 
-#room-four-img {
-   background-image: url(../images/Rooms/RH-mbl-room4@1x.jpg);
+#pack-four-img {
+   background-image: url(../images/Packages/P-mbl-pack4@1x.jpg);
    height: 216px;
    width: 347px;
    margin-bottom: 20px;
    margin-left: 30px;
 }
 
-#room-five-img {
-   background-image: url(../images/Rooms/RH-mbl-room5@1x.jpg);
+#pack-five-img {
+   background-image: url(../images/Packages/P-mbl-pack5@1x.jpg);
    height: 216px;
    width: 347px;
    margin-bottom: 20px;
    margin-left: 30px;
 }
 
-#room-six-img {
-   background-image: url(../images/Rooms/RH-mbl-room6@1x.jpg);
-   height: 216px;
-   width: 347px;
-   margin-bottom: 20px;
-   margin-left: 30px;
-}
-
-#adventure-cabin-hero{
-   background-image: url(../images/Rooms/RH-mbl-cabins@1x.jpg);
+#eco-friendly-hero{
+   background-image: url(../images/Packages/P-mbl-eco@1x.jpg);
    height: 421px;
    width: 317px;
    margin-bottom: 20px;
 }
 
-#adventure-hero-heading-box {
+#eco-friendly-heading-box {
    align-self: end;
    margin-right: 65px;
 }
 
-#ac-headtext-h2{
-    background: rgb(255, 255, 255);
+#eco-headtext-h2{
+   background: rgb(255, 255, 255);
    padding: 10px 15px;
    font-size: 31px;
    font-weight:normal;
 }
 
-#ac-headtext-h2 span{
+#eco-headtext-h2 span{
    color: #9a2018;
    font-size: 12px;
    font-weight: bolder;
    padding-top: 0;
 }
 
-#room-des {
+#pack-des {
    padding-top: 10px;
    font-size: 14px;
 }
 
-.room-collapsable {
+.pack-collapsable {
    padding-top: 15px;
    padding-bottom: 15px;
    display: flex;
@@ -317,11 +309,6 @@
    margin-top: 20px;
    border-top: solid 3px #CF6666;
    padding-top: 20px;
-}
-
-#cabin-text {
-   background-color: white;
-   align-self: end;
 }
 
 /*  FAQ start */

@@ -16,7 +16,6 @@
  }
  
  input, textarea {
-    display: block;
     margin: 0;
     padding: 0;
  }
@@ -143,15 +142,74 @@
 
 /*Spa list start*/
 
-.rooms-separator {
-   margin-top: 20px;
-   border-top: solid 3px #CF6666;
-   padding-top: 20px;
+#spa-img {
+   background-image: url(../images/Spa/Spa-mbl-Spa1@1x.jpg);
+   width: 315px;
+   height: 325px;
+   margin: 10px 20px;
 }
 
-#spa-info summary {
-   background-color: white;
-   padding-bottom:50px;
+#spa-img p {
+   align-self: end;
+}
+
+.accordion {
+   max-width: 400px;
+   border-width: 50px;
+   overflow: hidden;
+   background: white;
+}
+
+.accordion__label,.accordion__content{
+   padding: 14px 20px;
+}
+
+.accordion__label{
+   display: block;
+   cursor: pointer;
+   position: relative;
+   transition: 0.1s;
+}
+
+.accordion__content{
+   margin-left: 20px;
+   margin-right: 20px;
+   border-bottom: solid #CF6666;
+   margin-bottom: 50px;
+}
+
+.accordion__label:hover {
+   background: rgba(255, 70, 70, 0.1);
+}
+
+.accordion__label::after{
+   content: "";
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
+   right: 20px;
+   width: 12px;
+   height: 6px;
+   background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:red;opacity:0.6;" /></svg>');
+   background-size: contain;
+   transition: transform 0.4s;
+}
+.accordion__content{
+   background: white;
+   line-height: 1.6;
+   display: none;
+}
+
+.accordion__input {
+   display: none;
+}
+
+.accordion__input:checked ~ .accordion__content {
+   display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after {
+   transform: translateY(-50%) rotate(0.5turn);
 }
 
 /*  FAQ start */
@@ -204,7 +262,7 @@
 }
 
 details {
-   /*background-color: #e8e7e7;*/
+   background-color: #e8e7e7;
    padding: 16px;
    font-size: 16px;
    font-weight: bold;
@@ -266,22 +324,65 @@ details:hover {
    height: 250px;
 }
 
-#contact-hero-form input[type="submit"] {
+#contact-hero-form button[type="submit"] {
    padding: 12px 28px;
    background: #9a2018;
    color:#fff;
    border: none;
+   border-radius: 5px;
    transition: all 200ms ease-in;
    width: 150px;
    align-self: flex-end;
+   font-family: inherit;
 }
 
-#contact-hero-form input[type="submit"]:active {
+#contact-hero-form button[type="submit"]:hover{
    background-color: #CF6666;
    border-radius: 5px;
-   width: 382px;
-   cursor: pointer;
-}
+   }
+   
+   #contact-hero-form button[type="submit"]:active{
+      background-color: #CF6666;
+      border-radius: 5px;
+      width: 384px;
+      animation: contactsubmit 0.2s 1 linear;
+      transition: all 200ms ease-in-out;
+   }
+   
+   @keyframes contactsubmit {
+   0% {
+      width: 200px;
+   }
+   
+   50% {
+      width: 300px;
+   }
+   
+   100% {
+      width: 384px;
+   }
+   
+   }
+   
+   #contact-hero-form button[type="submit"]:active::after {
+      content: "✅";
+      animation: contactsent 0.2s 1 linear;
+      transition: all 200ms ease-in-out;
+   }
+   
+   @keyframes contactsent {
+      0% {
+         opacity: 0%;
+      }
+      
+      50% {
+         opacity: 50%;
+      }
+      
+      100% {
+         opacity: 100%;
+   }
+   }
 
 /*
 #contact-hero-form input[type="submit"]:active::after{

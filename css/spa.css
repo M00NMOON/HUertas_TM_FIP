@@ -146,11 +146,16 @@
    background-image: url(../images/Spa/Spa-mbl-Spa1@1x.jpg);
    width: 315px;
    height: 325px;
-   margin: 10px 20px;
 }
 
-#spa-img p {
-   align-self: end;
+#spa-prices, ul{
+   list-style: none;
+}
+
+#spa-prices, ul li{
+   font-size: 12px;
+   display: inline;
+   padding-left: 0;
 }
 
 .accordion {
@@ -172,10 +177,14 @@
 }
 
 .accordion__content{
-   margin-left: 20px;
+   margin-left: 15px;
    margin-right: 20px;
    border-bottom: solid #CF6666;
-   margin-bottom: 50px;
+   margin-bottom: 10px;
+}
+
+#spa-img, .accordion__content p{
+   align-items: end;
 }
 
 .accordion__label:hover {

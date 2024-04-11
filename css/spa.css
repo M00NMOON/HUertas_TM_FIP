@@ -154,85 +154,67 @@
    height: 325px;
 }
 
-#spa-prices-1 {
+#spa-img-3 {
+   background-image: url(../images/Spa/Spa-mbl-Spa3@1x.jpg);
+   width: 315px;
+   height: 325px;
+}
+
+#spa-img-4 {
+   background-image: url(../images/Spa/Spa-mbl-Spa4@1x.jpg);
+   width: 315px;
+   height: 325px;
+}
+
+#spa-img-5 {
+   background-image: url(../images/Spa/Spa-mbl-Spa5@1x.jpg);
+   width: 315px;
+   height: 325px;
+}
+
+#spa-img-6 {
+   background-image: url(../images/Spa/Spa-mbl-Spa6@1x.jpg);
+   width: 315px;
+   height: 325px;
+}
+
+#spa-prices-1, #spa-prices-2, #spa-prices-3,
+#spa-prices-4, #spa-prices-5, #spa-prices-6,
+#spa-prices-7, #spa-prices-8, #spa-prices-9,
+#spa-prices-10,#spa-prices-11,#spa-prices-12,
+#spa-prices-13  {
    margin-top: 0px;
    list-style: none;
    padding-inline-start: 0px;
    margin-bottom: 0px;
 }
 
-#spa-prices-2 {
-   margin-top: 0px;
+#spa-prices-1 li, #spa-prices-2 li, #spa-prices-3 li,
+#spa-prices-4 li, #spa-prices-6 li, #spa-prices-7 li,
+#spa-prices-8 li, #spa-prices-9 li, #spa-prices-10 li,
+#spa-prices-11 li, #spa-prices-12 li, #spa-prices-13 li  {
+   font-size: 12px;
+   display: inline;
+   font-weight: bolder;
+}
+
+#spa-prices-5 li{
+   margin-top: -3px;
+   font-size: 11px;
+   font-weight: bolder;
    list-style: none;
-   padding-inline-start: 0px;
-   margin-bottom: 0px;
 }
 
-#spa-prices-3 {
-   margin-top: 0px;
-   list-style: none;
-   padding-inline-start: 0px;
-   margin-bottom: 0px;
-}
-
-#spa-prices-4 {
-   margin-top: 0px;
-   list-style: none;
-   padding-inline-start: 0px;
-   margin-bottom: 0px;
-}
-
-#spa-prices-1 li{
-   font-size: 12px;
-   display: inline;
-   font-weight: bolder;
-}
-
-#spa-prices-2 li{
-   font-size: 12px;
-   display: inline;
-   font-weight: bolder;
-}
-
-#spa-prices-3 li{
-   font-size: 12px;
-   display: inline;
-   font-weight: bolder;
-}
-
-#spa-prices-4 li{
-   font-size: 12px;
-   display: inline;
-   font-weight: bolder;
-}
-
-
-#italic-text-1 {
+#italic-text-1, #italic-text-2, #italic-text-3,
+#italic-text-4, #italic-text-5, #italic-text-6{
    font-style: italic;
    margin-top: 0px;
    padding-top: 0px;
    margin-bottom: 10px;
 }
 
-#italic-text-2 {
-   font-style: italic;
-   margin-top: 0px;
-   padding-top: 0px;
-   margin-bottom: 10px;
-}
-
-#italic-text-3 {
-   font-style: italic;
-   margin-top: 0px;
-   padding-top: 0px;
-   margin-bottom: 10px;
-}
-
-#italic-text-4 {
-   font-style: italic;
-   margin-top: 0px;
-   padding-top: 0px;
-   margin-bottom: 10px;
+#italic-text-5 {
+   margin-top: 10px;
 }
 
 .accordion {
@@ -306,9 +288,9 @@
 /*  Spa Policies and Information */
 
 #spa-details{
-   margin-top: 40px;
-   margin-bottom: 20px;
-   background-color: white;
+   background-color: whitesmoke;
+   margin-top: 20px;
+   margin-bottom: 30px;
    margin-left: 15px;
 }
 #spa-details-text {

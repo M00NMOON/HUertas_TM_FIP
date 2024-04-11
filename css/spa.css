@@ -90,7 +90,7 @@
 /* 3. ---Main Hero Image--- */
 
 #hero {
-   background: url(../images/Packages/P-mbl-hero1@1x.jpg) no-repeat;
+   background: url(../images/Spa/Spa-mbl-hero@1x.jpg) no-repeat;
    height: 300px;
 }
 
@@ -142,15 +142,97 @@
 
 /*Spa list start*/
 
-#spa-img {
+#spa-img-1 {
    background-image: url(../images/Spa/Spa-mbl-Spa1@1x.jpg);
    width: 315px;
    height: 325px;
-   margin: 10px 20px;
 }
 
-#spa-img p {
-   align-self: end;
+#spa-img-2 {
+   background-image: url(../images/Spa/Spa-mbl-Spa2@1x.jpg);
+   width: 315px;
+   height: 325px;
+}
+
+#spa-prices-1 {
+   margin-top: 0px;
+   list-style: none;
+   padding-inline-start: 0px;
+   margin-bottom: 0px;
+}
+
+#spa-prices-2 {
+   margin-top: 0px;
+   list-style: none;
+   padding-inline-start: 0px;
+   margin-bottom: 0px;
+}
+
+#spa-prices-3 {
+   margin-top: 0px;
+   list-style: none;
+   padding-inline-start: 0px;
+   margin-bottom: 0px;
+}
+
+#spa-prices-4 {
+   margin-top: 0px;
+   list-style: none;
+   padding-inline-start: 0px;
+   margin-bottom: 0px;
+}
+
+#spa-prices-1 li{
+   font-size: 12px;
+   display: inline;
+   font-weight: bolder;
+}
+
+#spa-prices-2 li{
+   font-size: 12px;
+   display: inline;
+   font-weight: bolder;
+}
+
+#spa-prices-3 li{
+   font-size: 12px;
+   display: inline;
+   font-weight: bolder;
+}
+
+#spa-prices-4 li{
+   font-size: 12px;
+   display: inline;
+   font-weight: bolder;
+}
+
+
+#italic-text-1 {
+   font-style: italic;
+   margin-top: 0px;
+   padding-top: 0px;
+   margin-bottom: 10px;
+}
+
+#italic-text-2 {
+   font-style: italic;
+   margin-top: 0px;
+   padding-top: 0px;
+   margin-bottom: 10px;
+}
+
+#italic-text-3 {
+   font-style: italic;
+   margin-top: 0px;
+   padding-top: 0px;
+   margin-bottom: 10px;
+}
+
+#italic-text-4 {
+   font-style: italic;
+   margin-top: 0px;
+   padding-top: 0px;
+   margin-bottom: 10px;
 }
 
 .accordion {
@@ -171,11 +253,20 @@
    transition: 0.1s;
 }
 
-.accordion__content{
-   margin-left: 20px;
+.accordion__content {
+   margin-left: 15px;
    margin-right: 20px;
    border-bottom: solid #CF6666;
-   margin-bottom: 50px;
+   margin-bottom: 10px;
+}
+
+.accordion__content h4{
+   margin-top: 15px;
+}
+
+.accordion__content p{
+   margin-top: 5px;
+   font-size: 12px;
 }
 
 .accordion__label:hover {
@@ -211,6 +302,59 @@
 .accordion__input:checked ~ .accordion__label::after {
    transform: translateY(-50%) rotate(0.5turn);
 }
+
+/*  Spa Policies and Information */
+
+#spa-details{
+   margin-top: 40px;
+   margin-bottom: 20px;
+   background-color: white;
+   margin-left: 15px;
+}
+#spa-details-text {
+   margin-top: 15px;
+   font-weight: 100;
+}
+#spa-award-img {
+   background-image: url(../images/Spa/Spa-mbl-reward@1x.jpg);
+   height: 196px;
+   width: 173px;
+}
+
+#spa-prod-img {
+   margin-top: 20px;
+   background-image: url(../images/Spa/Spa-mbl-prod@1x.jpg);
+   height: 196px;
+   width: 173px;
+}
+
+#spa-award h4 {
+   font-size: 15px;
+   margin-bottom: 5px;
+   margin-top: 6px;
+}
+#prod-title {
+   font-size: 15px;
+   margin-bottom: 5px;
+   margin-top: 10px;
+   text-align: right;
+}
+
+#spa-award-text p {
+   font-size: 13px;
+}
+
+#spa-prod-text p {
+   font-size: 13px;
+   text-align: right;
+}
+
+#spa-prod-text {
+   margin-top: 10px;
+   margin-bottom: 40px;
+}
+
+
 
 /*  FAQ start */
 #faq-con{
@@ -266,12 +410,6 @@ details {
    padding: 16px;
    font-size: 16px;
    font-weight: bold;
-}
-
-details:hover {
-   color: rgb(196, 28, 28);
-   padding: 16px;
-   font-size: 16px;
 }
 
 /* 7. ---Contact--- */

@@ -154,6 +154,18 @@
    height: 325px;
 }
 
+#spa-img-3 {
+   background-image: url(../images/Spa/Spa-mbl-Spa3@1x.jpg);
+   width: 315px;
+   height: 325px;
+}
+
+#spa-img-4 {
+   background-image: url(../images/Spa/Spa-mbl-Spa4@1x.jpg);
+   width: 315px;
+   height: 325px;
+}
+
 #spa-prices-1 {
    margin-top: 0px;
    list-style: none;
@@ -176,6 +188,13 @@
 }
 
 #spa-prices-4 {
+   margin-top: 0px;
+   list-style: none;
+   padding-inline-start: 0px;
+   margin-bottom: 0px;
+}
+
+#spa-prices-5 {
    margin-top: 0px;
    list-style: none;
    padding-inline-start: 0px;
@@ -206,6 +225,13 @@
    font-weight: bolder;
 }
 
+#spa-prices-5 li{
+   font-size: 12px;
+   font-weight: bolder;
+   list-style: none;
+   font-size: 11px;
+}
+
 
 #italic-text-1 {
    font-style: italic;
@@ -233,6 +259,12 @@
    margin-top: 0px;
    padding-top: 0px;
    margin-bottom: 10px;
+}
+
+#italic-text-5 {
+   font-style: italic;
+   margin-top: 15px;
+   padding-top: 0px;
 }
 
 .accordion {

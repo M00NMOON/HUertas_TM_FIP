@@ -48,7 +48,6 @@
  
  /*   ~ sibling selector   */
  
- 
  #main-nav input:checked ~ #burger-con {
     display: block;
  }
@@ -189,6 +188,12 @@
    margin-bottom: 20px;
 }
 
+#pack-one-des, #pack-two-des, #pack-three-des, 
+#pack-four-des, #pack-five-des {
+   margin-top: 13px;
+}
+
+
 #eco-friendly-heading-box {
    align-self: end;
    margin-right: 65px;
@@ -208,9 +213,9 @@
    padding-top: 0;
 }
 
-#pack-des {
-   padding-top: 10px;
-   font-size: 14px;
+#about-cabins{
+   margin-left: 35px;
+   margin-bottom: 40px;
 }
 
 .pack-collapsable {
@@ -281,7 +286,6 @@
    display:none;
    padding-left: 0px;
    padding-right: 100px;
-   padding-top: 20px;
 }
 
 .tabs__content p {

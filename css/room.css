@@ -216,7 +216,8 @@
    padding-top: 0;
 }
 
-#room-des {
+#room-one-des, #room-two-des, #room-three-des,
+#room-four-des, #room-five-des, #room-six-des {
    padding-top: 10px;
    font-size: 14px;
 }
@@ -322,6 +323,10 @@
 #cabin-text {
    background-color: white;
    align-self: end;
+}
+
+#about-cabins{
+   margin-left: 30px;
 }
 
 /*  FAQ start */
